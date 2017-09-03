@@ -1,4 +1,4 @@
-FROM wordpress:4.8.0-php7.1-apache
+FROM wordpress:4.8.1-php7.1-apache
 
 RUN docker-php-ext-install zip
 
